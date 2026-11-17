@@ -34,7 +34,7 @@ Controls are on the left, the output is on the right.
 - **Story / Chapter / Screenplay / Dialogue**: Markov-chain writing, fully offline. It cleans the text, learns who says each line, and filters out repeats, fragments, run-ons and long copies of the source.
 - **⌨ Co-write**: *you* write; the bot suggests the 24 most likely next words (click, or Tab / Alt+1…9). Pick a Voice to write like one character, or press Auto-write to let it finish your sentence.
 - **🤖 AI Parody** *(optional)*: a language model writes a deadpan, absurd chapter using your text's cast and voice. Choose your provider in **⚙ Settings → AI**:
-  - **Local (stays on your PC):** **Nova** (uses Nova's running engine, or starts Nova's chat model), **Ollama**, or any OpenAI-compatible local server such as LM Studio or llama.cpp.
+  - **Local (stays on your PC):** **[Nova](https://wolklaw.dev/projects/nova/)** (use Nova 1.2's built-in API with a key from Nova's Settings → API; without a key it falls back to Nova's running engine, or starts Nova's chat model), **Ollama**, or any OpenAI-compatible local server such as LM Studio or llama.cpp.
   - **Cloud (needs your own API key):** **Anthropic (Claude)**, **OpenAI**, **Google Gemini**, **OpenRouter**, **Groq**, **Mistral**, **xAI (Grok)**, **DeepSeek**, **Together AI**, or any custom OpenAI-compatible endpoint. With a cloud provider, your premise and (if you leave it ticked) short samples of your text are sent to that provider. Keys are stored encrypted for your Windows account.
 
 ![AI settings](screenshots/05-ai-settings.png)
