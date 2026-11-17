@@ -17,7 +17,7 @@ Part of [wolklaw.dev](https://wolklaw.dev), styled like [Nova](https://wolklaw.d
 
 Controls are on the left, the output is on the right.
 
-1. **01 // Sources**: **＋ Files**, **＋ Folder**, **Paste**, or **Alice sample**. More text means better writing. Your sources are remembered next launch.
+1. **01 // Sources**: **＋ Files**, **＋ Folder**, **Paste**, **▶ Watch YouTube videos**, or **Alice sample**. More text means better writing. Your sources are remembered next launch.
 2. **02 // Mode**: **Story**, **Chapter**, **Screenplay**, **Dialogue**, **Co-write** or **AI Parody**.
 3. **03 // Options**: length (Short to Epic), sentence style (Punchy / Natural / Flowing), which characters speak, and optional words to start with (`Alice`, `The door opened`).
 4. **04 // Tune**: Personality (Stable / Mild / Very broken), Creativity and Faithfulness (loose remix to close to the source).
@@ -28,6 +28,14 @@ Controls are on the left, the output is on the right.
 | Screenplay | Co-write |
 |---|---|
 | ![Screenplay](screenshots/03-screenplay.png) | ![Co-write](screenshots/04-cowrite.png) |
+
+## Let it watch YouTube
+
+Click **▶ Watch YouTube videos**, paste some links, and choose how many times it should watch each one, from 1 to 1000. BotWatch reads each video's captions (manual or automatic, so the video needs captions), learns from them, and can write something straight away in the mode you picked. Every extra viewing makes the phrases it hears most come out stronger, so a bot that has watched a video 1000 times is a bit of a superfan.
+
+Only the caption text is fetched from YouTube (it needs the internet for that moment); what BotWatch does with it stays on your PC. Videos you've watched are remembered at launch without asking YouTube again.
+
+![Watch YouTube videos](screenshots/06-youtube.png)
 
 ## The modes
 
@@ -48,6 +56,7 @@ Controls are on the left, the output is on the right.
 - Windows 10/11, 64-bit. Plain UTF-8 `.txt` files work best.
 - Settings are saved to `.botwatch_settings.json` in your user folder.
 - Books whose text lost its quote marks (bad OCR) are used for narration only.
+- YouTube videos need captions. Some videos have none, or have captions turned off, and YouTube sometimes blocks caption requests from a connection: try again later or from another network.
 - Provider model names change over time; use **Fetch models** in the AI settings to see what your key can use.
 
 ## Feedback
