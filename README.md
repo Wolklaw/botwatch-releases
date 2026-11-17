@@ -15,10 +15,13 @@ Part of [wolklaw.dev](https://wolklaw.dev), styled like [Nova](https://wolklaw.d
 
 ## How to use it
 
-1. **Teach it**: **Add text files**, **Add a folder**, **Paste text**, or try the Alice sample. More text means better writing. Your sources are remembered next launch.
-2. **Pick a mode** in the top bar: **Story**, **Chapter**, **Screenplay**, **Dialogue**, **Co-write** or **AI Parody**.
-3. **Shape it** under the chat box: length (Short to Epic), sentence style (Punchy / Natural / Flowing), which characters speak. Type a name (`Alice`) or a few words (`The door opened`) to start with.
-4. **Press send** (or Ctrl+Enter). Press it again for a new version. Results arrive as a chat; click or Esc skips the glitchy decode animation.
+Controls are on the left, the output is on the right.
+
+1. **01 // Sources**: **＋ Files**, **＋ Folder**, **Paste**, or **Alice sample**. More text means better writing. Your sources are remembered next launch.
+2. **02 // Mode**: **Story**, **Chapter**, **Screenplay**, **Dialogue**, **Co-write** or **AI Parody**.
+3. **03 // Options**: length (Short to Epic), sentence style (Punchy / Natural / Flowing), which characters speak, and optional words to start with (`Alice`, `The door opened`).
+4. **04 // Tune**: Personality (Stable / Mild / Very broken), Creativity and Faithfulness (loose remix to close to the source).
+5. Press **GENERATE** (or Ctrl+Enter). Text decodes onto the screen in matrix green; click it or press Esc to skip the animation.
 
 ![Chapter mode](screenshots/02-chapter.png)
 
@@ -29,8 +32,8 @@ Part of [wolklaw.dev](https://wolklaw.dev), styled like [Nova](https://wolklaw.d
 ## The modes
 
 - **Story / Chapter / Screenplay / Dialogue**: Markov-chain writing, fully offline. It cleans the text, learns who says each line, and filters out repeats, fragments, run-ons and long copies of the source.
-- **⌨ Co-write**: *you* write; the bot suggests the 24 most likely next words (click, or Tab / Alt+1…9). Pick a Voice to write like one character, or press send to let it finish your sentence.
-- **🤖 AI Parody** *(optional)*: a language model writes a deadpan, absurd chapter using your text's cast and voice. Choose your provider in **Settings → AI**:
+- **⌨ Co-write**: *you* write; the bot suggests the 24 most likely next words (click, or Tab / Alt+1…9). Pick a Voice to write like one character, or press Auto-write to let it finish your sentence.
+- **🤖 AI Parody** *(optional)*: a language model writes a deadpan, absurd chapter using your text's cast and voice. Choose your provider in **⚙ Settings → AI**:
   - **Local (stays on your PC):** **Nova** (uses Nova's running engine, or starts Nova's chat model), **Ollama**, or any OpenAI-compatible local server such as LM Studio or llama.cpp.
   - **Cloud (needs your own API key):** **Anthropic (Claude)**, **OpenAI**, **Google Gemini**, **OpenRouter**, **Groq**, **Mistral**, **xAI (Grok)**, **DeepSeek**, **Together AI**, or any custom OpenAI-compatible endpoint. With a cloud provider, your premise and (if you leave it ticked) short samples of your text are sent to that provider. Keys are stored encrypted for your Windows account.
 
@@ -38,7 +41,7 @@ Part of [wolklaw.dev](https://wolklaw.dev), styled like [Nova](https://wolklaw.d
 
 ## Settings
 
-⚙ in the top-right: **Personality** (Stable / Mildly broken / Very broken, plus fine-tuning), **Faithfulness** (loose remix to close to the source), **Glitch level** (Off / Low / Full), the decode animation, your sources and brain file, and the AI provider.
+⚙ in the top-right: **Glitch level** (Off / Low / Full), the decode animation, the matrix rain, and the AI provider. **Save brain / Load / Reset** are at the bottom of the left panel.
 
 ## Good to know
 
